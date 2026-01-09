@@ -5,5 +5,5 @@ import '@testing-library/jest-dom'
 
 test("renders without crashing", () => {
   render(<App />)
-  expect(screen.getByText("GOLFGRIDS.")).toBeInTheDocument();
+  expect(screen.getByText("GOLFGRIDSA.")).toBeInTheDocument();
 });
